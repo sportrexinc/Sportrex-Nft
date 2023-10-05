@@ -1,0 +1,362 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  font-family: "Inter", sans-serif !important;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.flow-hide {
+  overflow-y: scroll;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+}
+.flow-hide-x-1 {
+  overflow-x: auto;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+}
+
+.flow-hide-x {
+  overflow-x: scroll;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+}
+.flow-hide-x::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  cursor: pointer;
+}
+.flow-hide::-webkit-scrollbar {
+  /* WebKit */
+  width: 0;
+  height: 0;
+}
+.hide-scroll {
+  scrollbar-width: none !important; /* Firefox */
+  -ms-overflow-style: none !important; /* Internet Explorer 10+ */
+}
+.hide-scroll::-webkit-scrollbar {
+  width: 0 !important;
+  height: 0 !important;
+}
+
+.login-box {
+  background: #f9f9f9;
+  box-shadow: 6px 5px 24px rgba(0, 0, 0, 0.17);
+}
+
+.cap {
+  background: #d3a518;
+  border-radius: 5px 5px 0px 0px;
+  height: 16px;
+}
+.card-cap {
+  background: #041c40;
+  border-radius: 10px 10px 0px 0px;
+  height: 16px;
+}
+
+.brief-card-bg {
+  background: #f9f9f9;
+  box-shadow: 6px 5px 24px rgba(0, 0, 0, 0.17);
+  border-radius: 10px;
+}
+
+.arrow-circle {
+  background: #ffffff;
+  box-shadow: 0px 2.61743px 13.0872px rgba(217, 217, 217, 0.25);
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 46px;
+  height: 46px;
+}
+.z-1 {
+  z-index: 1;
+}
+.z-2 {
+  z-index: 2;
+}
+.z-max {
+  z-index: 100;
+}
+
+.btn-bg {
+  background-image: linear-gradient(310deg, #7928ca 0%, #ff0080 100%);
+}
+
+@font-face {
+  font-family: "biome-semibold";
+  /* src: url('./fonts/Biome-Semi-Bold.ttf') format('truetype'); */
+  src: url("./fonts/Biome-Semi-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "biome-regular";
+  src: url("./fonts/BiomeRegular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "biome-light";
+  src: url("./fonts/Biome-W04-Light.ttf") format("truetype");
+}
+@font-face {
+  font-family: "biome-bold";
+  src: url("./fonts/FontsFree-Net-Biome-W04-Bold.ttf") format("truetype");
+}
+.bold {
+  font-family: "biome-bold" !important;
+}
+.light {
+  font-family: "biome-light" !important;
+}
+.regular {
+  font-family: "biome-regular" !important;
+}
+.semibold {
+  font-family: "biome-semibold" !important;
+}
+
+/* HEADER SIDE */
+/*  */
+/*  END OF HEADER SIDE */
+
+.eclipse-bg {
+  background: url("./components/backgrounds/eclipse-blur.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top;
+
+  background-attachment: fixed;
+  height: 50vh;
+  width: 100%;
+}
+
+/* BlUR CIRCLES */
+
+.blur-circle {
+  width: 372px;
+  height: 372px;
+  background: rgba(51, 51, 255, 0.3);
+  filter: blur(80px);
+  border-radius: 50%;
+  position: absolute;
+  top: -10em;
+  left: -5em;
+}
+
+.blur-circle-top-left-20 {
+  width: 372px;
+  height: 372px;
+  background: rgba(51, 51, 255, 0.3);
+  filter: blur(80px);
+  border-radius: 50%;
+  position: absolute;
+  top: -10em;
+  left: 10%;
+}
+.blur-circle-bottom-left-0 {
+  width: 372px;
+  height: 372px;
+  background: rgba(51, 51, 255, 0.3);
+  filter: blur(80px);
+  border-radius: 50%;
+  position: absolute;
+  bottom: -1em;
+  left: -10em;
+}
+.blur-circle-bottom-left-20 {
+  width: 372px;
+  height: 372px;
+  background: rgba(51, 51, 255, 0.3);
+  filter: blur(120px);
+  border-radius: 50%;
+  position: absolute;
+  bottom: -1em;
+  left: 20%;
+}
+
+.blur-circle-purple {
+  width: 322px;
+  height: 322px;
+  background: rgba(163, 51, 255, 0.3);
+  filter: blur(80px);
+  border-radius: 50%;
+  position: absolute;
+  bottom: -2em;
+  left: 3rem;
+}
+.blur-circle-purple-r {
+  width: 322px;
+  height: 322px;
+  background: rgba(163, 51, 255, 0.3);
+  filter: blur(80px);
+  border-radius: 50%;
+  position: absolute;
+  bottom: -10em;
+  right: -10rem;
+}
+.blur-circle-r {
+  width: 372px;
+  height: 372px;
+  background: rgba(51, 51, 255, 0.3);
+  filter: blur(80px);
+  border-radius: 50%;
+  position: absolute;
+  bottom: -10em;
+  right: -5em;
+}
+
+/* END OF BLUR CIRCLES */
+
+.bg-index {
+  z-index: 1;
+}
+
+.element-index {
+  z-index: 2;
+}
+.nav-index {
+  z-index: 7;
+}
+.flow-hide {
+  overflow-y: scroll;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+}
+.flow-hide-x {
+  overflow-x: scroll;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+}
+.flow-hide::-webkit-scrollbar {
+  /* WebKit */
+  width: 0;
+  height: 0;
+}
+
+.grad-text {
+  background: linear-gradient(
+    91.02deg,
+    #fac744 8.95%,
+    #8b14ef 58.82%,
+    #3333ff 107.66%
+  );
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  background-size: contain;
+    font-family: "biome-bold" !important;
+ 
+}
+
+.loading-bg {
+  background: url("https://media.publit.io/file/METAVERSE-u.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  background-attachment: fixed;
+  height: 100vh;
+  width: 100%;
+}
+.market-category-bg {
+  background: url("./assets/backgrounds/cat-desk.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top;
+  background-attachment: fixed;
+  height: 100vh;
+  width: 100%;
+  max-width: 1440px;
+}
+
+@media screen and (max-width: 768px) {
+  .market-category-bg {
+    background: url("./assets/backgrounds/cat-mob.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top;
+    background-attachment: fixed;
+    height: auto;
+    width: 100%;
+  }
+}
+
+.carousel.carousel-slider .control-arrow:hover {
+  background-color: transparent !important;
+}
+/* .carousel .control-arrow:before {
+  display: none !important;
+}
+
+.carousel.carousel-slider .control-arrow:before {
+  display: none !important;
+}
+*/
+.cutout-left-top {
+  background: linear-gradient(135deg, transparent 20px, #0e1648 0);
+  border-radius: 10px;
+}
+
+.border-gradient {
+  border: solid;
+  border-image-slice: 1;
+  border-width: 4px;
+  border-radius: 1rem;
+  border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
+}
+@layer utilities {
+  /* Chrome, Safari and Opera */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .no-scrollbar {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+}
+
+/* MEDIA QUERRY */
+
+@media screen and (max-width: 768px) {
+  .blur-circle-bottom-left-20 {
+    display: none;
+  }
+  .blur-circle-bottom-left-0 {
+    display: none;
+  }
+  .m-sticky-nav {
+    z-index: 102;
+  }
+  .blur-circle-top-left-20 {
+    display: none;
+  }
+  .blur-circle-top-left-0 {
+    display: none;
+  }
+}
+
+/* #############################################TRENDING NFT SIDE */
+.trending-bg {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    linear-gradient(268.77deg, #57c3ff 1.27%, #3333ff 92.05%);
+  width: 100%;
+  height: 100%;
+}
+
+/* ################################### END OF TRENDING NFT SIDE */
+
+.box-bordery:hover {
+  /* border-radius: 25px; */
+  border: 4px solid;
+  border-image-slice: 1;
+  border-radius: 25px;
+  border-image-source: linear-gradient(to left, #fac744, #8b14ef, #3333ff);
+}

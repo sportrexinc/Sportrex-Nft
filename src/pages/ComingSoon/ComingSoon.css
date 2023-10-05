@@ -1,0 +1,279 @@
+.coming-soon-bg {
+  /* background: linear-gradient(91.02deg, #FAC744 1.95%, #8B14EF 58.82%, #3333FF 107.66%),
+linear-gradient(0deg, #FFFFFF, #FFFFFF); */
+  background: url("../../assets/gifs/desktop");
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.logo-svg {
+  display: inline-block;
+  width: 32px;
+  margin-left: 8px;
+  background-image: url("../../assets/coming-soon/coming-soon-ocu.svg");
+  background-repeat: no-repeat;
+  background-size: 90%;
+  background-position: center;
+  transform: translate(-4px, 10px);
+  height: 30px;
+}
+.coming-soon-mobile {
+  /* background: linear-gradient(91.02deg, #FAC744 1.95%, #8B14EF 58.82%, #3333FF 107.66%),
+linear-gradient(0deg, #FFFFFF, #FFFFFF); */
+  background: url("../../assets/gifs/desktop");
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.coming-overlay {
+  background: rgba(16, 11, 73, 0.9);
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.mobile-coming-soon-bg {
+  /* background: linear-gradient(91.02deg, #FAC744 1.95%, #8B14EF 58.82%, #3333FF 107.66%),
+linear-gradient(0deg, #FFFFFF, #FFFFFF); */
+  background: url("./images/mobile-coming-soon.png");
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.coming-soon-btn {
+  background: linear-gradient(
+    110.01deg,
+    rgba(51, 51, 255, 0.5) 43.57%,
+    rgba(145, 65, 216, 0.5) 64.91%,
+    rgba(250, 199, 68, 0.5) 98.8%
+  );
+}
+.coming-soon-text {
+  background: linear-gradient(
+    91.02deg,
+    #fac744 8.95%,
+    #8b14ef 58.82%,
+    #3333ff 107.66%
+  );
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  background-size: contain;
+  
+}
+.coming-border-gradient {
+  /* border: solid;
+  border-radius: 1rem;
+  border-image-source: linear-gradient(to left, #743ad5, #d53a9d); */
+  border-image-slice: 1;
+  border-width: 4px;
+  border: 1px solid;
+  width: 100px;
+  height: 100px;
+  border-image-source: linear-gradient(
+    91.02deg,
+    #fac744 8.95%,
+    #8b14ef 58.82%,
+    #3333ff 107.66%
+  );
+}
+
+.boxo {
+  width: 131px;
+  height: 88px;
+  background: linear-gradient(
+    91.02deg,
+    #fac744 8.95%,
+    #8b14ef 58.82%,
+    #3333ff 107.66%
+  );
+  display: grid;
+  place-items: center;
+  border-radius: 10px;
+  filter: blur(100%);
+}
+.boxoA {
+  width: 131px;
+  height: 88px;
+  left: 0px;
+  top: 0px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.08);
+  box-shadow: inset 1px 1px 4px #ffffff;
+  backdrop-filter: blur(4px);
+}
+.grad-bg {
+  background: linear-gradient(
+    91.02deg,
+    #fac744 8.95%,
+    #8b14ef 58.82%,
+    #3333ff 107.66%
+  );
+}
+
+.line-1 {
+  position: relative;
+  /* top: 50%;   */
+  width: 50%;
+  /* margin: 0 auto; */
+  /* border-right: 2px solid rgba(255, 255, 255, 0.75); */
+  /* font-size: 180%; */
+  /* text-align: center; */
+  white-space: nowrap;
+  overflow: hidden;
+  transform: translateY(10%);
+}
+.line-2 {
+  position: relative;
+  /* top: 50%;   */
+  width: 41%;
+  /* margin: 0 auto; */
+  /* border-right: 2px solid rgba(255, 255, 255, 0.75); */
+  /* font-size: 180%; */
+  /* text-align: center; */
+  white-space: nowrap;
+  overflow: hidden;
+  transform: translateY(0%);
+}
+
+/* Animation */
+.anim-typewriter {
+  animation: typewriter 4s steps(44) 2s infinite normal,
+    blinkTextCursor 500ms steps(44) infinite normal;
+}
+
+.anim-typewriter1 {
+  animation: typewriter1 4s steps(44) 2s infinite both,
+    blinkTextCursor 500ms steps(44) infinite normal;
+}
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+  to {
+    width: 80%;
+  }
+}
+@keyframes typewriter1 {
+  from {
+    width: 0;
+  }
+  to {
+    width: 24em;
+  }
+}
+@keyframes blinkTextCursor {
+  from {
+    border-right-color: rgba(255, 255, 255, 0.75);
+  }
+  to {
+    border-right-color: transparent;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .bottom-down {
+    position: absolute;
+    bottom: 24px;
+    /* left: 0;
+  right: 0; */
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+  .supo {
+    height: 80vh;
+  }
+}
+@media screen and (min-height: 800px) {
+  .bottom-down-height {
+    position: absolute;
+    bottom: 0px;
+    /* left: 0;
+  right: 0; */
+    /* max-width: 1440px; */
+    width: 100%;
+    margin: 0 auto;
+  }
+  .supo-height {
+    height: 80vh;
+  }
+}
+@media screen and (max-width: 767px) {
+  .boxoA {
+    width: 86px;
+    height: 75px;
+    left: 0px;
+    top: 0px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.08);
+    box-shadow: inset 1px 1px 4px #ffffff;
+    backdrop-filter: blur(4px);
+  }
+  .logo-svg {
+    width: 17px;
+    height: 20px;
+    transform: translate(-4px, 5px);
+  }
+
+  .line-1 {
+    position: relative;
+    /* top: 50%;   */
+    width: 100%;
+    /* margin: 0 auto; */
+    /* border-right: 2px solid rgba(255, 255, 255, 0.75); */
+    /* font-size: 180%; */
+    /* text-align: center; */
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(10%);
+  }
+  .line-2 {
+    position: relative;
+    /* top: 50%;   */
+    width: 41%;
+    /* margin: 0 auto; */
+    /* border-right: 2px solid rgba(255, 255, 255, 0.75); */
+    /* font-size: 180%; */
+    /* text-align: center; */
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(0%);
+  }
+
+  /* Animation */
+  .anim-typewriter {
+    animation: typewriter 4s steps(44) 1s infinite normal,
+      blinkTextCursor 500ms steps(44) infinite normal;
+  }
+
+  .anim-typewriter1 {
+    animation: typewriter1 4s steps(44) 1s infinite both,
+      blinkTextCursor 500ms steps(44) infinite normal;
+  }
+  @keyframes typewriter {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  @keyframes typewriter1 {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+}
